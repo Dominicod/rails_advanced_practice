@@ -37,6 +37,9 @@ end
 
 group :development do
   gem 'factory_bot_rails'
+  gem 'shoulda-matchers'
+  gem 'simplecov'
+  gem 'pry'
   gem 'faker'
   gem 'listen', '>= 3.0.5', '< 3.2'
   gem 'rspec-rails'
